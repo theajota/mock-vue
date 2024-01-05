@@ -17,7 +17,7 @@ This project uses Mockoon for the API. You have to import the mockoon.json file 
 
 Application will caculate the age based on the year of birth.
 
-![createusers](https://res.cloudinary.com/practicaldev/image/fetch/s--4RSUi4LD--/c_imagga_scale,f_auto,fl_progressive,h_420,q_66,w_1000/https://dev-to-uploads.s3.amazonaws.com/i/3kfoy92ty0sds2a0nz4h.gif)
+![createusers](https://adrianalonso.es/wp-content/uploads/2018/01/vue.jpg)
 
 
 ![listusers](http://url/to/img.png)
