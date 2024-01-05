@@ -13,7 +13,7 @@ This project uses Mockoon for the API. You have to import the mockoon.json file 
     "apellido": "",
     "fechaNacimiento": ""
   }
-
+]
 
 Application will caculate the age based on the year of birth.
 
