@@ -15,7 +15,12 @@ This project uses Mockoon for the API. You have to import the mockoon.json file 
   }
 
 
-Application will caculate the age based on the year of birth. The first
+Application will caculate the age based on the year of birth.
+
+![createusers](https://ibb.co/3dvR4Bh)
+![listusers](http://url/to/img.png)
+
+
 
 
 ## Project setup
