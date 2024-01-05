@@ -3,6 +3,7 @@ import ListaUsuarios from '@/views/ListaUsuarios.vue';
 import CrearUsuario from '@/views/CrearUsuarios.vue';
 
 const routes = [
+  { path: '/', component: ListaUsuarios },
   { path: '/lista-usuarios', component: ListaUsuarios },
   { path: '/crear-usuario', component: CrearUsuario }
 ];
