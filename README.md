@@ -1,8 +1,8 @@
 # pytovue
 
-This project uses Mockoon for the API. You have to import the mockoon.json file and in the GET 200 you can add users with this code:
+This project uses Mockoon for the API (MOCKOON: https://mockoon.com/download/
+). You have to open the mock-environment.json file or you can import the mockoon.json file and in the GET 200 you can add users with this code:
 
-MOCKOON: https://mockoon.com/download/
 
 
 [
