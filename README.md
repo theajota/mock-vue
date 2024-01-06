@@ -33,10 +33,9 @@ Application will caculate the age based on the year of birth.
 ## Project setup
 ```
 npm install
-npm install vue
-npm install axios
-npm install vue-router
-```
+npm install -g @vue/cli
+npm install axios vue-router
+npm install axios```
 
 ### Compiles and hot-reloads for development
 ```
