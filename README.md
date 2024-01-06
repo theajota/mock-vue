@@ -38,8 +38,10 @@ npm install axios vue-router
 npm install axios```
 
 ### Compiles and hot-reloads for development
-```
 npm run serve
+
+
+```
 ```
 Server will run usually in http://localhost:8080/
 Data is get from http://localhost:3000/api/usuarios/1/usuarios
