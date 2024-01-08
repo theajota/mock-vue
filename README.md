@@ -9,12 +9,12 @@ This project uses Mockoon for the API (MOCKOON: https://mockoon.com/download/
   {
     "nombre": "",
     "apellido": "",
-    "fechaNacimiento": ""
+    "fechaNacimiento": "YEAR-DD-MM"
   },
   {
     "nombre": "",
     "apellido": "",
-    "fechaNacimiento": ""
+    "fechaNacimiento": "YEAR-DD-MM"
   }
 ]
 
