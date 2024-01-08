@@ -1,0 +1,155 @@
+{
+  "uuid": "19872dd7-3302-4cf8-8825-81bec650b9e9",
+  "lastMigration": 32,
+  "name": "usuarios",
+  "endpointPrefix": "api/usuarios/1",
+  "latency": 0,
+  "port": 3000,
+  "hostname": "",
+  "folders": [],
+  "routes": [
+    {
+      "uuid": "15336632-4e36-4347-94ea-62b5cf406f64",
+      "type": "http",
+      "documentation": "Devuelve una lista de usuarios.",
+      "method": "get",
+      "endpoint": "usuarios",
+      "responses": [
+        {
+          "uuid": "fe6a92a9-6c01-43ce-8aa1-f41dd771d8b8",
+          "body": "[ \n  { \n    \"nombre\": \"Antonio\", \n    \"apellido\": \"Bejarano\", \n    \"fechaNacimiento\": \"1990-01-01\" \n    \n  }, \n  { \n    \"nombre\": \"Jesus\", \n    \"apellido\": \"Moreno\", \n    \"fechaNacimiento\": \"1995-06-06\" \n    \n  } \n]",
+          "latency": 0,
+          "statusCode": 200,
+          "label": "Devuelve una lista de usuarios",
+          "headers": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            },
+            {
+              "key": "Access-Control-Allow-Origin",
+              "value": ""
+            },
+            {
+              "key": "Access-Control-Allow-Methods",
+              "value": ""
+            },
+            {
+              "key": "Access-Control-Allow-Headers",
+              "value": ""
+            }
+          ],
+          "bodyType": "INLINE",
+          "filePath": "",
+          "databucketID": "",
+          "sendFileAsBody": false,
+          "rules": [],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false,
+          "default": true,
+          "crudKey": "id",
+          "callbacks": []
+        }
+      ],
+      "responseMode": null
+    },
+    {
+      "uuid": "65637b44-c631-427d-8687-7eba293f14e4",
+      "type": "http",
+      "documentation": "Agregar un usuario",
+      "method": "post",
+      "endpoint": "usuarios",
+      "responses": [
+        {
+          "uuid": "1b2ba534-b46f-4b34-9825-aad5b9661f89",
+          "body": "",
+          "latency": 0,
+          "statusCode": 204,
+          "label": "Usuario creado correctamente",
+          "headers": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            },
+            {
+              "key": "Access-Control-Allow-Origin",
+              "value": ""
+            },
+            {
+              "key": "Access-Control-Allow-Methods",
+              "value": ""
+            },
+            {
+              "key": "Access-Control-Allow-Headers",
+              "value": ""
+            }
+          ],
+          "bodyType": "INLINE",
+          "filePath": "",
+          "databucketID": "",
+          "sendFileAsBody": false,
+          "rules": [],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false,
+          "default": true,
+          "crudKey": "id",
+          "callbacks": []
+        }
+      ],
+      "responseMode": null
+    }
+  ],
+  "rootChildren": [
+    {
+      "type": "route",
+      "uuid": "15336632-4e36-4347-94ea-62b5cf406f64"
+    },
+    {
+      "type": "route",
+      "uuid": "65637b44-c631-427d-8687-7eba293f14e4"
+    }
+  ],
+  "proxyMode": false,
+  "proxyHost": "",
+  "proxyRemovePrefix": false,
+  "tlsOptions": {
+    "enabled": false,
+    "type": "CERT",
+    "pfxPath": "",
+    "certPath": "",
+    "keyPath": "",
+    "caPath": "",
+    "passphrase": ""
+  },
+  "cors": true,
+  "headers": [
+    {
+      "key": "Access-Control-Allow-Origin",
+      "value": "*"
+    },
+    {
+      "key": "Access-Control-Allow-Methods",
+      "value": "GET,POST,PUT,PATCH,DELETE,HEAD,OPTIONS"
+    },
+    {
+      "key": "Access-Control-Allow-Headers",
+      "value": "Content-Type, Origin, Accept, Authorization, Content-Length, X-Requested-With"
+    }
+  ],
+  "proxyReqHeaders": [
+    {
+      "key": "",
+      "value": ""
+    }
+  ],
+  "proxyResHeaders": [
+    {
+      "key": "",
+      "value": ""
+    }
+  ],
+  "data": [],
+  "callbacks": []
+}
