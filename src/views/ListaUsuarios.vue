@@ -42,10 +42,10 @@
       try {
         const response = await axios.get('http://localhost:3000/api/usuarios/1/usuarios');
         this.usuarios = response.data;
+        console.log('Se han obtenido los usuarios correctamente');
+
       } catch (error) {
         console.error('Error en la obtención de la lista de los usuarios', error);
-      } finally {
-        console.log('Se han obtenido los usuarios correctamente');
       }
     },
     methods: {
